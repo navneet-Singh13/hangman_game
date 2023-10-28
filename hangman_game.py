@@ -9,8 +9,7 @@ size = len(random_item)
 string_to_repeat = "_"
 blanks_list = [string_to_repeat] * size
 isfound = False
-guesses = 0
-
+guesses =0
 def find(user_input):
     global isfound
     founded_pos = -1
